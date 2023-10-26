@@ -99,7 +99,7 @@ namespace OdemeFormApp
             TypeBuilder newClass = module.DefineType(className, TypeAttributes.Public);
 
             // interface implemente etme
-            newClass.AddInterfaceImplementation(typeof(IOdemeTipi));
+            //newClass.AddInterfaceImplementation(typeof(IOdemeTipi));
 
             // method oluşturma - override etme
 
